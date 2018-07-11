@@ -11,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
+@EnableCircuitBreaker
 //Ribbon Client side Load balancing
 public class OrderServiceApplication {
 
